@@ -139,19 +139,25 @@ ol:first-child {
   top: 0;
   left: 0;
   right: 0;
-  transition: all .5s;
+  transition: all .3s;
   overflow: hidden;
   height: 0;
-  background: #f82ea0;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
+  background: #9579cb;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
 }
 .img:hover .overlay,
 .overlay:hover {
   height: 100%;
-  background: #f82ea0;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
+  background: #9579cb;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
 }
 .img > img {
   display: block;/* Prevent inline gap under image*/
