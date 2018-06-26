@@ -3,6 +3,11 @@ body {
   color: #333333;
 }
 
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
 .wrapper {
   max-width: 960px;
   margin: 60px auto 60px auto;
@@ -17,7 +22,7 @@ header {
 header img {
   width: 175px;
   border-radius: 50%;
-  margin-right: 40px;
+  margin-right: 30px;
 }
 
 .my-name {
@@ -26,13 +31,105 @@ header img {
   margin-left: 5px;
 }
 
+/* NAV LINKS */
+
 nav {
-  font-size: 18px;
+  font-size: 17px;
   margin-bottom: 10px;
   font-family: 'Source Code Pro', monospace;
   font-weight: bold;
 }
 
-.social-links {
+nav a:hover {
+  color: #2dc9c7;
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+.about-link {
+  color: #f82ea0;
+}
+
+.email-link {
+  color: #ffa02d;
+}
+
+.github-link {
+  color: #50e295;
+}
+
+.resume-link {
+  color: #5399e4;
+}
+
+.projects-link {
+  color: #9579cb;
+}
+
+.short-bio {
   font-size: 16px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+/* PROJECTS */
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  margin-top: 70px;
+}
+
+.project img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  /*box-shadow: 0 0 15px #c7c7c7;*/
+  border: 1px solid #c7c7c7;
+  margin-bottom: 15px;
+}
+
+.project img:hover {
+  box-shadow: 0 0 10px #c7c7c7;
+  /*border: 1px solid #2dc9c7;*/
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+.project-title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project-tech {
+  margin-bottom: 10px;
+}
+
+.project-tech,
+.app-repo-links {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 16px;
+}
+
+.app-link,
+.repo-link {
+  text-decoration: underline;
+}
+
+.app-link:hover {
+  color: #f82ea0;
+}
+
+.repo-link:hover {
+  color: #9579cb;
+}
+
+.project-description {
+  font-size: 16px;
+  color: #777777;
 }

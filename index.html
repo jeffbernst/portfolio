@@ -17,14 +17,38 @@
     <div class="header-info">
       <div class="my-name">Jeff Bernstein</div>
       <nav>
-        About | Project 1 | Project 2 | Project 3
+        const <a href="" class="about-link">about</a> = (
+        <a href="" class="email-link">email</a>,
+        <a href="" class="github-link">github</a>,
+        <a href="" class="resume-link">resume</a>) =>
+        <a href="" class="projects-link">projects</a>
       </nav>
-      <div class="social-links">
-        Email &middot; GitHub &middot; Twitter &middot; Resume
-      </div>
+      <div class="short-bio">front-end / back-end web developer</div>
     </div>
   </header>
-
+  <main class="project-grid">
+    <div class="project">
+      <img src="simplefolio.png" alt="simplefolio">
+      <div class="project-title">Simplefolio <span class="app-repo-links">(<a href="" class="app-link">live app</a> / <a
+        href="" class="repo-link">repo</a>)</span></div>
+      <div class="project-tech"> react/redux/node/express/mongo</div>
+      <div class="project-description">
+        A simple cryptocurrency portfolio. Just enter your balances and the app will
+        automatically import current price data. It also includes a watchlist feature to track the cryptocurrencies
+        you're interested in.
+      </div>
+    </div>
+    <div class="project">
+      <img src="simplefolio.png" alt="simplefolio">
+      <div class="project-title">Simplefolio</div>
+      <div class="project-description">A simple cryptocurrency portfolio.</div>
+    </div>
+    <!--<div class="project">-->
+    <!--<img src="creativecrypto.png" alt="creative crypto">-->
+    <!--<div class="project-title">The Creative Crypto</div>-->
+    <!--<div class="project-description">A digital magazine about creativity in the world of cryptocurrency, posted on the blockchain.</div>-->
+    <!--</div>-->
+  </main>
 </div>
 </body>
 </html>
