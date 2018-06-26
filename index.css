@@ -73,27 +73,60 @@ nav a:hover {
   font-family: 'Source Code Pro', monospace;
 }
 
+/* BIO */
+
+.bio {
+  width: 100%;
+  background-color: #f4f3f4;
+  border: 1px solid #c7c7c7;
+  border-radius: 5px;
+  font-family: 'Source Code Pro', monospace;
+  padding: 10px 10px 10px 20px;
+  margin-top: 50px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ol {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+ol > li {
+  counter-increment: customlistcounter;
+}
+
+ol > li:before {
+  content: counter(customlistcounter) " ";
+  font-weight: bold;
+  float: left;
+  width: 2em;
+}
+
+ol:first-child {
+  counter-reset: customlistcounter;
+}
+
 /* PROJECTS */
 
 .project-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 50px;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .project img {
   display: block;
   max-width: 100%;
   height: auto;
-  /*box-shadow: 0 0 15px #c7c7c7;*/
   border: 1px solid #c7c7c7;
   margin-bottom: 15px;
 }
 
 .project img:hover {
   box-shadow: 0 0 10px #c7c7c7;
-  /*border: 1px solid #2dc9c7;*/
   transition: 200ms;
   transition-timing-function: ease-in-out;
   -webkit-transition: 200ms;
