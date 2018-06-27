@@ -167,8 +167,16 @@ ol:first-child {
   background: #9579cb;
 }
 
-.overlay-creativecrypto {
+.overlay-courseblocks {
   background: #f82ea0;
+}
+
+.overlay-creativecrypto {
+  background: #50e295;
+}
+
+.overlay-japanesedictionary {
+  background: #ffa02d;
 }
 
 .img > img {
