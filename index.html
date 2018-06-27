@@ -19,18 +19,33 @@
 </head>
 <body>
 <div class="wrapper">
-  <header>
+  <!-- version 1 of header for desktop version of site -->
+  <header class="desktop-header">
     <img src="me.png" alt="me">
     <div class="header-info">
       <div class="my-name">Jeff Bernstein</div>
       <nav>
         const <a href="#about" class="about-link">about</a> = (
         <a href="mailto:jeffreybbernstein@gmail.com" class="email-link">email</a>,
-        <a href="https://github.com/jeffbernst" class="github-link" target="_blank" >github</a>,
+        <a href="https://github.com/jeffbernst" class="github-link" target="_blank">github</a>,
         <a href="" class="resume-link">resume</a> ) =>
         <a href="#projects" class="projects-link">projects</a>
       </nav>
       <div class="short-bio">front-end / back-end web developer</div>
+    </div>
+  </header>
+  <!-- version 2 of header for mobile version of site -->
+  <header class="mobile-header">
+    <img src="me.png" alt="me">
+    <div class="header-info">
+      <div class="my-name">Jeff Bernstein</div>
+      <nav>
+        <a href="mailto:jeffreybbernstein@gmail.com" class="email-link">email</a>
+        <a href="https://github.com/jeffbernst" class="github-link" target="_blank">github</a>
+        <a href="" class="resume-link">resume</a>
+        <a href="#about" class="about-link">about</a>
+        <a href="#projects" class="projects-link">projects</a>
+      </nav>
     </div>
   </header>
   <ol class="bio" id="about">
@@ -43,12 +58,14 @@
     <div class="project">
       <div class="img">
         <img src="simplefolio.png" alt="simplefolio">
-        <a href="https://simplefol.io/" class="img-link" target="_blank" ><div class="overlay overlay-simplefolio">Simplefolio</div></a>
+        <a href="https://simplefol.io/" class="img-link" target="_blank">
+          <div class="overlay overlay-simplefolio">Simplefolio</div>
+        </a>
       </div>
       <div class="app-repo-links">
-        <a href="https://simplefol.io/" class="app-link" target="_blank" >live app</a> /
-        <a href="https://github.com/jeffbernst/simplefolio-client" class="repo-link" target="_blank" >client repo</a> /
-        <a href="https://github.com/jeffbernst/simplefolio-api" class="repo-link" target="_blank" >api repo</a>
+        <a href="https://simplefol.io/" class="app-link" target="_blank">live app</a> /
+        <a href="https://github.com/jeffbernst/simplefolio-client" class="repo-link" target="_blank">client repo</a> /
+        <a href="https://github.com/jeffbernst/simplefolio-api" class="repo-link" target="_blank">api repo</a>
       </div>
       <div class="project-tech">(react/redux/node/express/mongo)</div>
       <div class="project-description">
@@ -60,11 +77,13 @@
     <div class="project">
       <div class="img">
         <img src="creativecrypto.png" alt="simplefolio">
-        <a href="https://www.thecreativecrypto.com/" class="img-link" target="_blank" ><div class="overlay overlay-creativecrypto">The Creative Crypto</div></a>
+        <a href="https://www.thecreativecrypto.com/" class="img-link" target="_blank">
+          <div class="overlay overlay-creativecrypto">The Creative Crypto</div>
+        </a>
       </div>
       <div class="app-repo-links">
-        <a href="https://www.thecreativecrypto.com/" class="app-link" target="_blank" >live app</a> /
-        <a href="https://github.com/jeffbernst/creative-crypto" class="repo-link" target="_blank" >repo</a>
+        <a href="https://www.thecreativecrypto.com/" class="app-link" target="_blank">live app</a> /
+        <a href="https://github.com/jeffbernst/creative-crypto" class="repo-link" target="_blank">repo</a>
       </div>
       <div class="project-tech">(react/redux)</div>
       <div class="project-description">
@@ -75,11 +94,13 @@
     <div class="project">
       <div class="img">
         <img src="japanesedictionary.png" alt="japanese dictionary">
-        <a href="https://jeffbernst.github.io/japanese-dictionary/" class="img-link" target="_blank" ><div class="overlay overlay-japanesedictionary">Japanese Dictionary</div></a>
+        <a href="https://jeffbernst.github.io/japanese-dictionary/" class="img-link" target="_blank">
+          <div class="overlay overlay-japanesedictionary">Japanese Dictionary</div>
+        </a>
       </div>
       <div class="app-repo-links">
-        <a href="https://jeffbernst.github.io/japanese-dictionary/" class="app-link" target="_blank" >live app</a> /
-        <a href="https://github.com/jeffbernst/japanese-dictionary" class="repo-link" target="_blank" >repo</a>
+        <a href="https://jeffbernst.github.io/japanese-dictionary/" class="app-link" target="_blank">live app</a> /
+        <a href="https://github.com/jeffbernst/japanese-dictionary" class="repo-link" target="_blank">repo</a>
       </div>
       <div class="project-tech">(jQuery)</div>
       <div class="project-description">
@@ -90,11 +111,13 @@
     <div class="project">
       <div class="img">
         <img src="courseblocks.png" alt="course blocks">
-        <a href="http://www.courseblocks.io/" class="img-link" target="_blank" ><div class="overlay overlay-courseblocks">Course Blocks</div></a>
+        <a href="http://www.courseblocks.io/" class="img-link" target="_blank">
+          <div class="overlay overlay-courseblocks">Course Blocks</div>
+        </a>
       </div>
       <div class="app-repo-links">
-        <a href="http://www.courseblocks.io/" class="app-link" target="_blank" >live app</a> /
-        <a href="https://github.com/jeffbernst/course-blocks" class="repo-link" target="_blank" >repo</a>
+        <a href="http://www.courseblocks.io/" class="app-link" target="_blank">live app</a> /
+        <a href="https://github.com/jeffbernst/course-blocks" class="repo-link" target="_blank">repo</a>
       </div>
       <div class="project-tech">(jQuery/node/express/mongo)</div>
       <div class="project-description">
