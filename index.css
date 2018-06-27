@@ -120,6 +120,7 @@ ol:first-child {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 40px;
   margin-top: 40px;
+  margin-bottom: 80px;
 }
 
 .project img {
@@ -138,6 +139,7 @@ ol:first-child {
   vertical-align: top;
   cursor: pointer;
 }
+
 .overlay {
   position: absolute;
   top: 0;
@@ -183,6 +185,10 @@ ol:first-child {
   display: block;
 }
 
+.img-link {
+  height: 100%;
+}
+
 .project-tech {
   margin-bottom: 10px;
 }
@@ -192,7 +198,7 @@ ol:first-child {
   font-family: 'Source Code Pro', monospace;
   font-weight: bold;
   font-size: 16px;
-  margin: 10px 0;
+  margin: 5px 0 10px 0;
 }
 
 .app-link,
