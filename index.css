@@ -236,7 +236,7 @@ ol:first-child {
 /* iphone 6 width and bigger mobile devices */
 @media (min-width: 370px) {
   .my-name {
-    font-size: 35px;
+    font-size: 40px;
   }
 
   header img {
