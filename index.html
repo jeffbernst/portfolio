@@ -19,33 +19,27 @@
 </head>
 <body>
 <div class="wrapper">
-  <!-- version 1 of header for desktop version of site -->
-  <header class="desktop-header">
+  <header>
     <img src="me.png" alt="me">
     <div class="header-info">
       <div class="my-name">Jeff Bernstein</div>
-      <nav>
-        const <a href="#about" class="about-link">about</a> = (
-        <a href="mailto:jeffreybbernstein@gmail.com" class="email-link">email</a>,
-        <a href="https://github.com/jeffbernst" class="github-link" target="_blank">github</a>,
-        <a href="" class="resume-link">resume</a> ) =>
-        <a href="#projects" class="projects-link">projects</a>
+      <!-- version 1 of nav for desktop version of site -->
+      <nav class="desktop-nav">
+        <a href="#about" class="about-link">about</a> &middot;
+        <a href="#projects" class="projects-link">projects</a> &middot;
+        <a href="mailto:jeffreybbernstein@gmail.com" class="email-link">email</a> &middot;
+        <a href="https://github.com/jeffbernst" class="github-link" target="_blank">github</a> &middot;
+        <a href="" class="resume-link">resume</a>
       </nav>
-      <div class="short-bio">front-end / back-end web developer</div>
-    </div>
-  </header>
-  <!-- version 2 of header for mobile version of site -->
-  <header class="mobile-header">
-    <img src="me.png" alt="me">
-    <div class="header-info">
-      <div class="my-name">Jeff Bernstein</div>
-      <nav>
+      <!-- version 2 of header for mobile version of site -->
+      <nav class="mobile-nav">
         <a href="mailto:jeffreybbernstein@gmail.com" class="email-link">email</a>
         <a href="https://github.com/jeffbernst" class="github-link" target="_blank">github</a>
         <a href="" class="resume-link">resume</a>
         <a href="#about" class="about-link">about</a>
         <a href="#projects" class="projects-link">projects</a>
       </nav>
+      <div class="short-bio">front-end / back-end web developer</div>
     </div>
   </header>
   <ol class="bio" id="about">
