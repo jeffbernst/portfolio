@@ -221,18 +221,11 @@ ol:first-child {
 
 .app-link:hover,
 .repo-link:hover {
+  color: #f82ea0;
   transition: 200ms;
   transition-timing-function: ease-in-out;
   -webkit-transition: 200ms;
   -webkit-transition-timing-function: ease-in-out;
-}
-
-.app-link:hover {
-  color: #f82ea0;
-}
-
-.repo-link:hover {
-  color: #9579cb;
 }
 
 .project-description {
